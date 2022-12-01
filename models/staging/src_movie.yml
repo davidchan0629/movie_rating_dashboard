@@ -1,0 +1,29 @@
+version: 2
+
+sources:
+  - name: movie
+    description: Movie titles between 1991 and 2022 with its cast and rating from viewers.
+    database: movie-369512    
+    schema: movie
+    tables:
+      - name: title_basic
+        columns:
+          - name: tconst
+            description: unique movie ID
+      
+      - name: title_ratings
+        columns:
+          - name: tconst
+            description: unique movie ID
+
+      - name: title_crews
+        columns:
+          - name: tconst
+            description: unique movie ID
+
+      - name: name_basic
+        columns:
+          - name: knownForTitles
+            description: unique movie ID
+
+

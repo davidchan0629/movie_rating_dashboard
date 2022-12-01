@@ -1,15 +1,23 @@
-Welcome to your new dbt project!
+## Movie rating dashboard
 
-### Using the starter project
+Don't know watching which movie at night or parties?
+Just checkout the high rating movie in the dashboard with you selected option.
 
-Try running the following commands:
-- dbt run
-- dbt test
+### Dashboard Features
 
+- Genre
 
-### Resources:
-- Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
-- Check out [Discourse](https://discourse.getdbt.com/) for commonly asked questions and answers
-- Join the [dbt community](http://community.getbdt.com/) to learn from other analytics engineers
-- Find [dbt events](https://events.getdbt.com) near you
-- Check out [the blog](https://blog.getdbt.com/) for the latest news on dbt's development and best practices
+You can checkout the genre you want or just leave it blank
+
+- Years
+
+In default, I included all the movies within 30 years.
+You can adjust the year of the movie it published for your interest.
+
+- Number of votes
+
+I also included the high votes of movie as the most discussed and reviewed movie within the period you selected.
+It can act as cross checking the rating on the above graph since the rating become authentic for more votes.
+
+![Movie Dashboard](https://github.com/davidchan0629/movie/blob/dev/Movie%20Dashboard.jpg)
+
