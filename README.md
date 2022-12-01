@@ -1,4 +1,4 @@
 (Test)
 
-![Movie Dashboard](https://raw.githubusercontent.com/Descent098/ezcv/master/.github/Movie_Dashboard.jpg)
+![Movie Dashboard](https://raw.githubusercontent.com/davidchan0629/movie/dev/.github/Movie_Dashboard.jpg)
 
