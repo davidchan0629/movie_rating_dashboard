@@ -9,4 +9,7 @@ CAST(endYear AS INT64) AS endYear,
 CAST(runtimeMinutes AS INT64) AS runtimeMinutes,			
 genres_unnest	
 from {{ source('movie', 'title_basic') }}
-WHERE CAST(startYear AS INT64) BETWEEN 1991 AND 2022
+WHERE 
+CAST(startYear AS INT64) BETWEEN 1991 AND 2022
+AND
+titleType = 'movie'
